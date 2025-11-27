@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;;
+}
+
+#notice{
+    color: black;
+    margin-bottom: 10px;
+    font-size: small;
+    margin-left: 25%;
+    
+}
+
+#middle{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#text{
+  font-family: 'Arial', sans-serif;
+  text-align:left;
+  font-weight: bold;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+  color: grey;
+}
+
+#source{
+  font-style: italic;
+  justify-content: flex-end;
+  color: black;
+  margin-left: 57%;
+  margin-top: 40px;
+  font-weight: normal;
+
+}
+
+hr {
+  border: 1px solid #000000;
+  width: 50%;
+  margin: 20px auto;
+}
+
+#table-button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#restart {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgba(232, 228, 228, 0.67);
+  color: rgb(0, 0, 0);
+  border-color: black;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+
+#table-container{
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.highlight {
+    background-color: lightgrey;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+    
+}
+
+.completeHighlight {
+    color: green;
+}
